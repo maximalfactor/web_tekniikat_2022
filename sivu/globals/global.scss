@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap'); /*Font import*/
+
+body {
+    padding: 0px;
+    background-color: rgb(156, 156, 156);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0px 0px 4px #000;
+}
+
+.navbar {
+    .d-flex {
+        width: 50%;
+        gap: 15px;
+        margin-right: 10px;
+    }
+
+    .navbar-brand {
+        margin-left: 10px;
+    }
+}
+
+[aria-current] {                                /*vaihdetaan nykyisen sivun linkin varjoa hieman*/
+    text-shadow: 0px 0px 4px rgb(54, 54, 54);
+}
+
