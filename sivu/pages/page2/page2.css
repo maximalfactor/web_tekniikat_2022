@@ -1,0 +1,27 @@
+.fluid-container {
+  margin-top: 5px;
+  padding: 0px 15px;
+}
+.fluid-container h1 {
+  color: #000;
+  text-shadow: none;
+}
+
+#sidebar {
+  padding: 10px;
+}
+
+textarea {
+  margin: auto;
+  width: 100%;
+  text-shadow: none;
+  height: 560px;
+}
+
+textarea + div > button {
+  margin: 15px;
+  text-shadow: none;
+  width: 150px;
+}
+
+/*# sourceMappingURL=page2.css.map */

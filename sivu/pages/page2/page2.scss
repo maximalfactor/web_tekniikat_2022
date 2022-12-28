@@ -1,0 +1,31 @@
+$form-height: 560px;
+
+@mixin no-shadow() {
+    text-shadow: none;
+}
+
+.fluid-container {
+    h1{
+        color: #000;
+        @include no-shadow();
+    }
+    margin-top: 5px;
+    padding: 0px 15px;
+}
+
+#sidebar {
+    padding: 10px;
+}
+
+textarea {
+    margin:auto;
+    width: 100%;
+    @include no-shadow();
+    height: $form-height;
+}
+
+textarea+div>button {
+    margin: 15px; 
+    @include no-shadow();
+    width: 150px;
+}
