@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"); /*Font import*/
+a {
+  color: inherit !important;
+}
+
 body {
+  height: 100vh;
   padding: 0px;
+  background-color: rgb(156, 156, 156);
+}
+
+.dropdown-menu {
   background-color: rgb(156, 156, 156);
 }
 
@@ -8,6 +17,10 @@ body {
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
   text-shadow: 0px 0px 4px #000;
+}
+
+.dropdown-item {
+  font-size: 2em;
 }
 
 .navbar .d-flex {
@@ -21,6 +34,17 @@ body {
 
 [aria-current] { /*vaihdetaan nykyisen sivun linkin varjoa hieman*/
   text-shadow: 0px 0px 4px rgb(54, 54, 54);
+}
+
+@media only screen and (min-width: 865px) {
+  .dropstart i {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 865px) {
+  .navbar .nav-item {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=global.css.map */

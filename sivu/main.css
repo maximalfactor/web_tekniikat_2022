@@ -1,5 +1,34 @@
-#jaako {
-  background-color: rgb(75, 125, 254);
+.card {
+  height: 100% !important;
+  margin-top: 5px;
+  box-shadow: 2px 2px 1px #eee, -2px -2px 1px #eee, -2px 2px 1px #eee, 2px -2px 1px #eee;
+}
+
+.row {
+  height: 700px;
+}
+
+.card-header .nav-link {
+  background-color: rgb(156, 156, 156);
+}
+
+.nav.nav-pills .nav-link.active {
+  background-color: var(--bs-info-text);
+}
+.nav.nav-pills .nav-link:not(.active) {
+  background-color: #eee;
+}
+
+@media only screen and (max-width: 865px) {
+  .col + .col { /*select second column*/
+    display: none;
+  }
+  #text-container {
+    width: 100% !important;
+  }
+  .row {
+    height: 600px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

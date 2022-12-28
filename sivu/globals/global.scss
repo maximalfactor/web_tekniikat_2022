@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap'); /*Font import*/
+$gray: rgb(156, 156, 156);
+a {
+    color: inherit !important;
+}
 
 body {
+    height: 100vh;
     padding: 0px;
-    background-color: rgb(156, 156, 156);
+    background-color: $gray;
+}
+.dropdown-menu {
+    background-color: $gray;
 }
 
 * {
@@ -11,6 +19,9 @@ body {
     text-shadow: 0px 0px 4px #000;
 }
 
+.dropdown-item {
+    font-size: 2em;
+}
 .navbar {
     .d-flex {
         width: 50%;
@@ -27,3 +38,14 @@ body {
     text-shadow: 0px 0px 4px rgb(54, 54, 54);
 }
 
+@media only screen and (min-width: 865px) {
+    .dropstart i {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 865px) {
+    .navbar .nav-item {
+        display: none;
+    }
+}
