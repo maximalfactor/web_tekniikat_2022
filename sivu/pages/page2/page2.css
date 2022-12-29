@@ -24,4 +24,8 @@ textarea + div > button {
   width: 150px;
 }
 
+.modal h5, .modal p {
+  text-shadow: none;
+}
+
 /*# sourceMappingURL=page2.css.map */

@@ -29,3 +29,10 @@ textarea+div>button {
     @include no-shadow();
     width: 150px;
 }
+
+.modal {
+    h5, p {
+        @include no-shadow();
+
+    }
+}
