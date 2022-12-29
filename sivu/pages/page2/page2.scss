@@ -37,10 +37,13 @@ textarea+div>button {
     }
 }
 
-@media only screen and (max-width: 865px) {
+@media only screen and (max-width: 1400px) {
     #sidebar {
         display: none;
     }
+}
+@media only screen and (max-width: 865px) {
+
     .form-group~.col {
         width: 0px !important;
         display: none;

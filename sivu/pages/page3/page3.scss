@@ -5,3 +5,7 @@
 .container * {
     @include no-shadow();
 }
+
+button.accordion-button {
+    font-size: 1.1em;
+}

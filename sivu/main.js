@@ -1,13 +1,6 @@
-var textContent1 =`Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel deserunt ad mollitia possimus veritatis nam. Mollitia eum, cum dolorem aperiam, fuga sit fugiat quia corporis consectetur similique provident id doloribus
-Nesciunt quis obcaecati asperiores ratione nostrum earum mollitia recusandae, nam illo repellat molestiae sit numquam eius deserunt dolorum perspiciatis cum. Incidunt iure rerum voluptas, eaque reprehenderit in dolorum repellendus nobis.
-Eos, quis. Placeat reiciendis natus sunt labore omnis, fuga at! Id ratione voluptate eum nesciunt sit a officia beatae eaque vitae temporibus ad, quibusdam distinctio nisi quisquam illum consequatur aliquid?
-Quod sunt atque rem porro in, quibusdam neque, consequuntur modi tempora possimus harum at, debitis laudantium odio maxime eaque aspernatur molestias magnam quam consequatur eligendi unde nulla repellendus. Omnis, animi!
-Magni accusamus cum optio, quae veniam ducimus, nobis atque nulla hic nam est? Quod officia sint vitae tenetur? Maxime inventore minima sapiente nesciunt quasi animi, laboriosam maiores voluptas numquam dolorem!`;
+var textContent1 =`Me täällä Oulun Lautapelaajat ry:ssä tarjoamme Oululaisille nuorille mahdollisuuden pelata lautapelejä mukavassa seurassa. Järjestämme peli-iltoja jäsenille joka viikko. Toimintaamme liittyy myös kuukausittainen MTG-turnaus. Meidän tapahtumissa on aina hyvä ilmapiiri ja emme hyväksy syrjintää.  Liity jäsenekesemme, että pääset toimintaan mukaan! Peli iloistamme kielletyt pelit: Monopoli, Menolippu ja Twilight Imperium`
 
-var textContent2 = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel deserunt ad mollitia possimus veritatis nam. Mollitia eum, cum dolorem aperiam, fuga sit fugiat quia corporis consectetur similique provident id doloribus
-Nesciunt quis obcaecati asperiosasdadsadast labore omnis, fuga at! Id ratione voluptate eum nesciunt sit a officia beatae eaque vitae temporibus ad, quibusdam distinctio nisi quisquam illum consequatur aliquid?
-Quod sunt atque rem porro in, quibusdam neque, consequuntur modi tempora possimus harum at, debitis laudantium odio maxime eaque aspernatur molestias magnam quam consequatur eligendi unde nulla repellendus. Omnis, animi!
-Magni accusamus cum optio, quae veniam ducimus, nobis atque nulla hic nam est? Quod officia sint vitae tenetur? Maxime inventore minima sapiente nesciunt quasi animi, laboriosam maiores voluptas numquam dolorem!`;
+var textContent2 = `Jäsenyys on ilmaista! Kuitenkin perimme kaikilta jäseniltä kuukausittaisen käsittelymaksun (15e/kk). Jäsenillä on oikeus sekä velvollisuus osallistua viikottaisiin peli-iltoihin. Määräaikaan peli-iltaan saapumatta jääminen on rangaistavaa. Jäsenille tarjotaan myös alennus paikallisiin baareihin, joka auttaa lautapelaamisen aiheuttaman masennuksen kanssa. `;
 
 var textBody = document.querySelector("#text-container .card-body");
 textBody.innerHTML = textContent1;

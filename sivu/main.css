@@ -12,6 +12,14 @@
   background-color: rgb(156, 156, 156);
 }
 
+#text-container .card-body {
+  font-size: 1.5em;
+}
+
+img {
+  height: 100%;
+}
+
 .nav.nav-pills .nav-link.active {
   background-color: var(--bs-info-text);
 }
@@ -20,8 +28,12 @@
 }
 
 @media only screen and (max-width: 865px) {
-  .col + .col { /*select second column*/
+  .col-6 + .col-6 { /*select second column*/
     display: none;
+  }
+  .col-6:first-child {
+    width: 85%;
+    margin: 0px auto;
   }
   #text-container {
     width: 100% !important;
