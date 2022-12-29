@@ -28,4 +28,10 @@ textarea + div > button {
   text-shadow: none;
 }
 
+@media only screen and (max-width: 865px) {
+  #sidebar {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=page2.css.map */

@@ -1,0 +1,7 @@
+@mixin no-shadow() {
+    text-shadow: none;
+}
+
+.container * {
+    @include no-shadow();
+}

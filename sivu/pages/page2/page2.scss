@@ -36,3 +36,9 @@ textarea+div>button {
 
     }
 }
+
+@media only screen and (max-width: 865px) {
+    #sidebar {
+        display: none;
+    }
+}
