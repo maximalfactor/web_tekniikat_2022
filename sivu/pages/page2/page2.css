@@ -32,6 +32,14 @@ textarea + div > button {
   #sidebar {
     display: none;
   }
+  .form-group ~ .col {
+    width: 0px !important;
+    display: none;
+  }
+  .form-group {
+    width: 85vw !important;
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=page2.css.map */
