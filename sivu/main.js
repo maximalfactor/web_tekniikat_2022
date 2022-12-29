@@ -7,6 +7,7 @@ textBody.innerHTML = textContent1;
 page1Button = document.querySelector("#text-container .nav-item:first-child>.nav-link");
 page2Button = document.querySelector("#text-container .nav-item:not(*:first-child)>.nav-link");
 
+//Buttons to toggle between two text options
 page1Button.addEventListener("click", () => {
     page1Button.classList.toggle("active");
     if(page1Button.classList.contains("active")) {
